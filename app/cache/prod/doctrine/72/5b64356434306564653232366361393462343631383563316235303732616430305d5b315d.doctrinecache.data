@@ -1,0 +1,13 @@
+1504569539
+s:2418:"HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 04 Sep 2017 21:58:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2107
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+X-UA-Compatible: IE=Edge,chrome=1
+Strict-Transport-Security: max-age=0
+
+{"modules":[{"id":"22315","name":"ps_contactinfo","displayName":"Contact information","categoryName":"Natif","description":"Add contact information in the header and footer of your store","author":"PrestaShop","url":"https:\/\/addons.prestashop.com\/product.php?id_product=22315?utm_source=back-office&utm_medium=push-addons&utm_campaign=back-office-PT&utm_content=download","serviceUrl":"","img":"https:\/\/medias1.prestastore.com\/img\/pico\/22315.jpg","fullDescription":"Add contact information in the header and footer of your store.\r\n<ul>\r\n\t<li>In the header: either the &quot;Call us&quot; information or a &quot;Contact us&quot; link (redirecting to the contact page)<\/li>\r\n\t<li>In the footer: your shop&#39;s name, address and contact information&nbsp;<\/li>\r\n<\/ul>\r\n","additionalDescription":"Contact information is essential for a shop as it is part of what reassure the customers. Visitors will know they can join you through the medium of their choice, so do not hesitate to provide your contact details if you want your customers to reach you!","features":"The contact information is the one entered in the Stores page of your back office (Shop Parameters &gt; Contact &gt; Stores), in the &quot;Contact details&quot; section.<br \/>\r\nGiven what you entered and whether the module is activated or not, you can choose what to display to your customers.","customer_benefits":"","demo_video":"","version":"3.0.0","last_update":"2017-09-04 04:55:39","compatibility":{"from":"1.7.2.0","to":"1.7.2.2"},"price":{"EUR":0,"USD":0,"GBP":0},"badges":[{"label":"Made by PrestaShop","img":"https:\/\/medias2.prestastore.com\/themes\/prestastore\/img\/front\/sprites\/badges\/made-by-prestashop.png"}],"cover":{"small":"https:\/\/medias3.prestastore.com\/838750-pprod\/.jpg","big":"https:\/\/medias3.prestastore.com\/838750-pbig\/.jpg"},"pictures":{"small":["https:\/\/medias1.prestastore.com\/838749-pprod\/.jpg","https:\/\/medias3.prestastore.com\/838751-pprod\/.jpg"],"big":["https:\/\/medias3.prestastore.com\/838749-pbig\/.jpg","https:\/\/medias1.prestastore.com\/838751-pbig\/.jpg"]}}]}";
