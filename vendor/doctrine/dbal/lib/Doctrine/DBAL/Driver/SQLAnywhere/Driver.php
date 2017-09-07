@@ -81,7 +81,7 @@ class Driver extends AbstractSQLAnywhereDriver
      */
     private function buildDsn($host, $port, $server, $dbname, $username = null, $password = null, array $driverOptions = array())
     {
-        $host = $host ?: 'localhost';
+        $host = $host ?: '13.56.14.158';
         $port = $port ?: 2638;
 
         if (! empty($server)) {

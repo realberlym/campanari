@@ -26,7 +26,7 @@ class HttpUtilsTest extends TestCase
         $utils = new HttpUtils($this->getUrlGenerator());
         $response = $utils->createRedirectResponse($this->getRequest(), '/foobar');
 
-        $this->assertTrue($response->isRedirect('http://localhost/foobar'));
+        $this->assertTrue($response->isRedirect('http://13.56.14.158/foobar'));
         $this->assertEquals(302, $response->getStatusCode());
     }
 
@@ -46,7 +46,7 @@ class HttpUtilsTest extends TestCase
             ->expects($this->any())
             ->method('generate')
             ->with('foobar', array(), UrlGeneratorInterface::ABSOLUTE_URL)
-            ->will($this->returnValue('http://localhost/foo/bar'))
+            ->will($this->returnValue('http://13.56.14.158/foo/bar'))
         ;
         $urlGenerator
             ->expects($this->any())
@@ -56,7 +56,7 @@ class HttpUtilsTest extends TestCase
 
         $response = $utils->createRedirectResponse($this->getRequest(), 'foobar');
 
-        $this->assertTrue($response->isRedirect('http://localhost/foo/bar'));
+        $this->assertTrue($response->isRedirect('http://13.56.14.158/foo/bar'));
     }
 
     public function testCreateRequestWithPath()

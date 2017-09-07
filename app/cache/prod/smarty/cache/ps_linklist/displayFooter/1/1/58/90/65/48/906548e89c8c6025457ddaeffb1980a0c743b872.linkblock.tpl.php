@@ -33,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-cms-page-1-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/content/1-entrega"
+                href="http://13.56.14.158/campanari/content/1-entrega"
                 title="Nossos termos e condições de entrega"
                             >
               Entrega
@@ -43,7 +43,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-cms-page-2-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/content/2-advertencia-legal"
+                href="http://13.56.14.158/campanari/content/2-advertencia-legal"
                 title="Advertência legal"
                             >
               Advertência Legal
@@ -53,7 +53,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-cms-page-3-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/content/3-termos-e-condicoes-de-utilizacao"
+                href="http://13.56.14.158/campanari/content/3-termos-e-condicoes-de-utilizacao"
                 title="Nossos termos e condições de utilização"
                             >
               Termos e condições de utilização
@@ -63,7 +63,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-cms-page-4-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/content/4-quem-somos"
+                href="http://13.56.14.158/campanari/content/4-quem-somos"
                 title="Saiba mais sobre nós"
                             >
               Quem somos
@@ -73,7 +73,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-cms-page-5-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/content/5-pagamento-seguro"
+                href="http://13.56.14.158/campanari/content/5-pagamento-seguro"
                 title="Nosso meio de pagamento seguro"
                             >
               Pagamento seguro
@@ -83,7 +83,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-static-page-contact-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/contacte-nos"
+                href="http://13.56.14.158/campanari/contacte-nos"
                 title="Use o nosso formulário para nos contactar"
                             >
               Fale conosco
@@ -93,7 +93,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-static-page-sitemap-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/mapa do site"
+                href="http://13.56.14.158/campanari/mapa do site"
                 title="Lost ? Find what your are looking for"
                             >
               Mapa do site
@@ -103,7 +103,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <a
                 id="link-static-page-stores-2"
                 class="cms-page-link"
-                href="http://localhost/campanari/lojas"
+                href="http://13.56.14.158/campanari/lojas"
                 title=""
                             >
               Lojas

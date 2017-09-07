@@ -57,7 +57,7 @@ class FragmentHandlerTest extends TestCase
 
     /**
      * @expectedException \RuntimeException
-     * @expectedExceptionMessage Error when rendering "http://localhost/" (Status code is 404).
+     * @expectedExceptionMessage Error when rendering "http://13.56.14.158/" (Status code is 404).
      */
     public function testDeliverWithUnsuccessfulResponse()
     {

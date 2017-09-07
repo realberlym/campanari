@@ -1048,7 +1048,7 @@ private $httpPort;
 private $httpsPort;
 private $queryString;
 private $parameters = array();
-public function __construct($baseUrl ='', $method ='GET', $host ='localhost', $scheme ='http', $httpPort = 80, $httpsPort = 443, $path ='/', $queryString ='')
+public function __construct($baseUrl ='', $method ='GET', $host ='13.56.14.158', $scheme ='http', $httpPort = 80, $httpsPort = 443, $path ='/', $queryString ='')
 {
 $this->setBaseUrl($baseUrl);
 $this->setMethod($method);

@@ -174,7 +174,7 @@ class RequestDataCollectorTest extends TestCase
         $response = new Response();
         $response->setStatusCode(200);
         $response->headers->set('Content-Type', 'application/json');
-        $response->headers->setCookie(new Cookie('foo', 'bar', 1, '/foo', 'localhost', true, true));
+        $response->headers->setCookie(new Cookie('foo', 'bar', 1, '/foo', '13.56.14.158', true, true));
         $response->headers->setCookie(new Cookie('bar', 'foo', new \DateTime('@946684800')));
         $response->headers->setCookie(new Cookie('bazz', 'foo', '2000-12-12'));
 

@@ -148,7 +148,7 @@ class ClientTest extends TestCase
         $client = new TestClient();
         $client->request('GET', '/');
         $headers = $client->getRequest()->getServer();
-        $this->assertEquals('localhost', $headers['HTTP_HOST'], '->request() sets the HTTP_HOST header');
+        $this->assertEquals('13.56.14.158', $headers['HTTP_HOST'], '->request() sets the HTTP_HOST header');
 
         $client = new TestClient();
         $client->request('GET', 'http://www.example.com');
@@ -169,7 +169,7 @@ class ClientTest extends TestCase
     {
         $client = new TestClient();
         $client->request('GET', '/foo');
-        $this->assertEquals('http://localhost/foo', $client->getRequest()->getUri(), '->request() converts the URI to an absolute one');
+        $this->assertEquals('http://13.56.14.158/foo', $client->getRequest()->getUri(), '->request() converts the URI to an absolute one');
 
         $client = new TestClient();
         $client->request('GET', 'http://www.example.com');

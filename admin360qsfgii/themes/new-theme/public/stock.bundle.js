@@ -40190,11 +40190,11 @@ module.exports = InfoReceiverIframe;
 /* WEBPACK VAR INJECTION */(function(global) {
 
 module.exports = global.location || {
-  origin: 'http://localhost:80'
+  origin: 'http://13.56.14.158:80'
 , protocol: 'http'
-, host: 'localhost'
+, host: '13.56.14.158'
 , port: 80
-, href: 'http://localhost/'
+, href: 'http://13.56.14.158/'
 , hash: ''
 };
 
@@ -41621,7 +41621,7 @@ function reloadApp() {
 	}
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?http://localhost:8080"))
+/* WEBPACK VAR INJECTION */}.call(exports, "?http://13.56.14.158:8080"))
 
 /***/ }),
 /* 261 */

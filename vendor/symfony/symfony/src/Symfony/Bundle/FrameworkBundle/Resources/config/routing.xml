@@ -22,7 +22,7 @@
         <parameter key="router.options.matcher.cache_class">%router.cache_class_prefix%UrlMatcher</parameter>
         <parameter key="router.options.generator.cache_class">%router.cache_class_prefix%UrlGenerator</parameter>
         <parameter key="router_listener.class">Symfony\Component\HttpKernel\EventListener\RouterListener</parameter>
-        <parameter key="router.request_context.host">localhost</parameter>
+        <parameter key="router.request_context.host">13.56.14.158</parameter>
         <parameter key="router.request_context.scheme">http</parameter>
         <parameter key="router.request_context.base_url"></parameter>
     </parameters>

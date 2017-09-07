@@ -39,7 +39,7 @@ class HttpFoundationRequestHandlerTest extends AbstractRequestHandlerTest
 
     protected function setRequestData($method, $data, $files = array())
     {
-        $this->request = Request::create('http://localhost', $method, $data, array(), $files);
+        $this->request = Request::create('http://13.56.14.158', $method, $data, array(), $files);
     }
 
     protected function getRequestHandler()

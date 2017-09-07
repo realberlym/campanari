@@ -112,7 +112,7 @@ class SymfonyBridgeAdapter
         $config['namespace'] = $cacheDriver['namespace'];
 
         if (in_array($type, array('memcache', 'memcached'))) {
-            $host = !empty($host) ? $host : 'localhost';
+            $host = !empty($host) ? $host : '13.56.14.158';
             $config[$type]['servers'][$host] = array(
                 'host' => $host,
                 'port' => !empty($port) ? $port : 11211,
@@ -121,7 +121,7 @@ class SymfonyBridgeAdapter
 
         if ($type === 'redis') {
             $config[$type] = array(
-                'host' => !empty($host) ? $host : 'localhost',
+                'host' => !empty($host) ? $host : '13.56.14.158',
                 'port' => !empty($port) ? $port : 6379,
                 'password' => !empty($password) ? $password : null,
                 'database' => !empty($database) ? $database : 0

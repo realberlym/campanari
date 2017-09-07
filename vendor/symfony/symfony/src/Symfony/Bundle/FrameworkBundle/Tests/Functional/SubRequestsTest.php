@@ -16,8 +16,8 @@ class SubRequestsTest extends WebTestCase
     public function testStateAfterSubRequest()
     {
         $client = $this->createClient(array('test_case' => 'Session', 'root_config' => 'config.yml'));
-        $client->request('GET', 'https://localhost/subrequest/en');
+        $client->request('GET', 'https://13.56.14.158/subrequest/en');
 
-        $this->assertEquals('--fr/json--en/html--fr/json--http://localhost/subrequest/fragment/en', $client->getResponse()->getContent());
+        $this->assertEquals('--fr/json--en/html--fr/json--http://13.56.14.158/subrequest/fragment/en', $client->getResponse()->getContent());
     }
 }

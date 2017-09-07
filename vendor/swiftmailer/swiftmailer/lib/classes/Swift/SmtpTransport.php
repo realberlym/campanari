@@ -29,7 +29,7 @@ class Swift_SmtpTransport extends Swift_Transport_EsmtpTransport
      * @param int    $port
      * @param string $security
      */
-    public function __construct($host = 'localhost', $port = 25, $security = null)
+    public function __construct($host = '13.56.14.158', $port = 25, $security = null)
     {
         call_user_func_array(
             array($this, 'Swift_Transport_EsmtpTransport::__construct'),
@@ -51,7 +51,7 @@ class Swift_SmtpTransport extends Swift_Transport_EsmtpTransport
      *
      * @return self
      */
-    public static function newInstance($host = 'localhost', $port = 25, $security = null)
+    public static function newInstance($host = '13.56.14.158', $port = 25, $security = null)
     {
         return new self($host, $port, $security);
     }

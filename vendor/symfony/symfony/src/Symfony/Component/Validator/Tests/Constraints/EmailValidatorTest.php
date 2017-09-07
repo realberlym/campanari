@@ -94,7 +94,7 @@ class EmailValidatorTest extends AbstractConstraintValidatorTest
         return array(
             array('example'),
             array('example@'),
-            array('example@localhost'),
+            array('example@13.56.14.158'),
             array('foo@example.com bar'),
         );
     }
@@ -103,7 +103,7 @@ class EmailValidatorTest extends AbstractConstraintValidatorTest
     {
         $constraint = new Email(array('strict' => true));
 
-        $this->validator->validate('example@localhost', $constraint);
+        $this->validator->validate('example@13.56.14.158', $constraint);
 
         $this->assertNoViolation();
     }

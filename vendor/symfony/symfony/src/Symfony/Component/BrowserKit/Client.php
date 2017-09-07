@@ -534,7 +534,7 @@ abstract class Client
         } else {
             $currentUri = sprintf('http%s://%s/',
                 isset($this->server['HTTPS']) ? 's' : '',
-                isset($this->server['HTTP_HOST']) ? $this->server['HTTP_HOST'] : 'localhost'
+                isset($this->server['HTTP_HOST']) ? $this->server['HTTP_HOST'] : '13.56.14.158'
             );
         }
 

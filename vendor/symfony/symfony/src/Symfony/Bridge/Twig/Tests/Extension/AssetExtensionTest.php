@@ -29,8 +29,8 @@ class AssetExtensionTest extends TestCase
         $extension = $this->createExtension(new Package(new StaticVersionStrategy('22', '%s?version=%s')));
 
         $this->assertEquals('me.png?version=42', $extension->getAssetUrl('me.png', null, false, '42'));
-        $this->assertEquals('http://localhost/me.png?version=22', $extension->getAssetUrl('me.png', null, true));
-        $this->assertEquals('http://localhost/me.png?version=42', $extension->getAssetUrl('me.png', null, true, '42'));
+        $this->assertEquals('http://13.56.14.158/me.png?version=22', $extension->getAssetUrl('me.png', null, true));
+        $this->assertEquals('http://13.56.14.158/me.png?version=42', $extension->getAssetUrl('me.png', null, true, '42'));
     }
 
     /**
@@ -59,7 +59,7 @@ class AssetExtensionTest extends TestCase
         $foundationExtension
             ->expects($this->any())
             ->method('generateAbsoluteUrl')
-            ->will($this->returnCallback(function ($arg) { return 'http://localhost/'.$arg; }))
+            ->will($this->returnCallback(function ($arg) { return 'http://13.56.14.158/'.$arg; }))
         ;
 
         return new AssetExtension(new Packages($package), $foundationExtension);

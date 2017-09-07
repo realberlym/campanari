@@ -104,7 +104,7 @@ var show_new_orders = \"1\";
 
   <script>
 \t\t\t\tvar ids_ps_advice = new Array();
-\t\t\t\tvar admin_gamification_ajax_url = 'http://localhost/campanari/admin360qsfgii/index.php?controller=AdminGamification&token=06d54403bf180c4643147d44131eacb1';
+\t\t\t\tvar admin_gamification_ajax_url = 'http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminGamification&token=06d54403bf180c4643147d44131eacb1';
 \t\t\t\tvar current_id_tab = 45;
 \t\t\t</script>
 
@@ -125,7 +125,7 @@ var show_new_orders = \"1\";
 
     
     <i class=\"material-icons pull-left p-x-1 js-mobile-menu hidden-md-up\">menu</i>
-    <a class=\"logo pull-left\" href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminDashboard&amp;token=2b4f2a4b77f5765e80759ef67df4ac2e\"></a>
+    <a class=\"logo pull-left\" href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminDashboard&amp;token=2b4f2a4b77f5765e80759ef67df4ac2e\"></a>
 
     <div class=\"component pull-left hidden-md-down\"><div class=\"ps-dropdown dropdown\">
   <span type=\"button\" id=\"quick-access\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
@@ -134,23 +134,23 @@ var show_new_orders = \"1\";
   </span>
   <div class=\"ps-dropdown-menu dropdown-menu\" aria-labelledby=\"quick-access\">
           <a class=\"dropdown-item\"
-         href=\"http://localhost/campanari/admin360qsfgii/index.php/module/manage?token=e1aaf3c9f4abdc96aabf3291a0fa23ee\"
+         href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php/module/manage?token=e1aaf3c9f4abdc96aabf3291a0fa23ee\"
                  data-item=\"Módulos instalados\"
       >Módulos instalados</a>
           <a class=\"dropdown-item\"
-         href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCategories&amp;addcategory&amp;token=9f2fb9e8e6563824c0d4b2e4c7333972\"
+         href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCategories&amp;addcategory&amp;token=9f2fb9e8e6563824c0d4b2e4c7333972\"
                  data-item=\"Nova Categoria\"
       >Nova Categoria</a>
           <a class=\"dropdown-item\"
-         href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCartRules&amp;addcart_rule&amp;token=cb7169f263a129b193c1288335c883f4\"
+         href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCartRules&amp;addcart_rule&amp;token=cb7169f263a129b193c1288335c883f4\"
                  data-item=\"Novo Voucher\"
       >Novo Voucher</a>
           <a class=\"dropdown-item\"
-         href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminOrders&amp;token=d7360b91ae7326dad8f81f854b128102\"
+         href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminOrders&amp;token=d7360b91ae7326dad8f81f854b128102\"
                  data-item=\"Pedidos\"
       >Pedidos</a>
           <a class=\"dropdown-item\"
-         href=\"http://localhost/campanari/admin360qsfgii/index.php/product/new?token=e1aaf3c9f4abdc96aabf3291a0fa23ee\"
+         href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php/product/new?token=e1aaf3c9f4abdc96aabf3291a0fa23ee\"
                  data-item=\"Produto novo\"
       >Produto novo</a>
         <hr>
@@ -160,14 +160,14 @@ var show_new_orders = \"1\";
         data-icon=\"icon-AdminParentModulesSf\"
         data-method=\"add\"
         data-url=\"index.php/module/catalog\"
-        data-post-link=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminQuickAccesses&token=b17cbd45c00022edc9c734a98be23089\"
+        data-post-link=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminQuickAccesses&token=b17cbd45c00022edc9c734a98be23089\"
         data-prompt-text=\"Atribua um nome a este atalho:\"
         data-link=\" - Lista\"
       >
         <i class=\"material-icons\">add_circle_outline</i>
         Adicionar a página atual ao Acesso Rápido
       </a>
-        <a class=\"dropdown-item\" href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminQuickAccesses&token=b17cbd45c00022edc9c734a98be23089\">
+        <a class=\"dropdown-item\" href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminQuickAccesses&token=b17cbd45c00022edc9c734a98be23089\">
       <i class=\"material-icons\">settings</i>
       Gerir atalhos
     </a>
@@ -257,10 +257,10 @@ var show_new_orders = \"1\";
       <span>Michele Michele</span>
     </div>
     <hr>
-    <a class=\"employee-link profile-link\" href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminEmployees&amp;token=7f0130f8df9ac56f13217c9af9d87550&amp;id_employee=1&amp;updateemployee\">
+    <a class=\"employee-link profile-link\" href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminEmployees&amp;token=7f0130f8df9ac56f13217c9af9d87550&amp;id_employee=1&amp;updateemployee\">
       <i class=\"material-icons\">settings_applications</i> O seu perfil
     </a>
-    <a class=\"employee-link m-t-1\" id=\"header_logout\" href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminLogin&amp;token=6dc0fadb20c912fcaad9d4bb31df3a93&amp;logout\">
+    <a class=\"employee-link m-t-1\" id=\"header_logout\" href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminLogin&amp;token=6dc0fadb20c912fcaad9d4bb31df3a93&amp;logout\">
       <i class=\"material-icons\">power_settings_new</i> Sair
     </a>
   </div>
@@ -364,7 +364,7 @@ var show_new_orders = \"1\";
   </script>
 </div>
         <div class=\"component pull-md-right hidden-md-down\">  <div class=\"shop-list\">
-    <a class=\"link\" href=\"http://localhost/campanari/\" target= \"_blank\">Campanari Art</a>
+    <a class=\"link\" href=\"http://13.56.14.158/campanari/\" target= \"_blank\">Campanari Art</a>
   </div>
 </div>
             
@@ -384,7 +384,7 @@ var show_new_orders = \"1\";
                 
         
           <li class=\"link-levelone \" data-submenu=\"1\">
-            <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminDashboard&amp;token=2b4f2a4b77f5765e80759ef67df4ac2e\" class=\"link\" >
+            <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminDashboard&amp;token=2b4f2a4b77f5765e80759ef67df4ac2e\" class=\"link\" >
               <i class=\"material-icons\">trending_up</i> <span>Painel</span>
             </a>
           </li>
@@ -402,7 +402,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"3\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminOrders&amp;token=d7360b91ae7326dad8f81f854b128102\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminOrders&amp;token=d7360b91ae7326dad8f81f854b128102\" class=\"link\">
                     <i class=\"material-icons\">shopping_basket</i>
                     <span>
                     Pedidos
@@ -415,7 +415,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"4\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminOrders&amp;token=d7360b91ae7326dad8f81f854b128102\" class=\"link\"> Pedidos
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminOrders&amp;token=d7360b91ae7326dad8f81f854b128102\" class=\"link\"> Pedidos
                               </a>
                             </li>
 
@@ -423,7 +423,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"5\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminInvoices&amp;token=073a0c61b705d45090a5d9c98df28246\" class=\"link\"> Faturas
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminInvoices&amp;token=073a0c61b705d45090a5d9c98df28246\" class=\"link\"> Faturas
                               </a>
                             </li>
 
@@ -431,7 +431,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"6\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminSlip&amp;token=084dc324bb679f12fffa59544c11f059\" class=\"link\"> Comprovantes de créditos
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminSlip&amp;token=084dc324bb679f12fffa59544c11f059\" class=\"link\"> Comprovantes de créditos
                               </a>
                             </li>
 
@@ -439,7 +439,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"7\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminDeliverySlip&amp;token=9baf638757752c1e255d43d12980090c\" class=\"link\"> Comprovantes de entregas
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminDeliverySlip&amp;token=9baf638757752c1e255d43d12980090c\" class=\"link\"> Comprovantes de entregas
                               </a>
                             </li>
 
@@ -447,7 +447,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"8\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCarts&amp;token=e8b27559c6f59ea0f2cdbce21d6384ae\" class=\"link\"> Carrinho de compras
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCarts&amp;token=e8b27559c6f59ea0f2cdbce21d6384ae\" class=\"link\"> Carrinho de compras
                               </a>
                             </li>
 
@@ -478,7 +478,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"11\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCategories&amp;token=9f2fb9e8e6563824c0d4b2e4c7333972\" class=\"link\"> Categorias
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCategories&amp;token=9f2fb9e8e6563824c0d4b2e4c7333972\" class=\"link\"> Categorias
                               </a>
                             </li>
 
@@ -486,7 +486,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"12\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminTracking&amp;token=5b634a3ad79f66e0ceee995408fe6429\" class=\"link\"> Monitoramento
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminTracking&amp;token=5b634a3ad79f66e0ceee995408fe6429\" class=\"link\"> Monitoramento
                               </a>
                             </li>
 
@@ -494,7 +494,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"13\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminAttributesGroups&amp;token=f92480497f91fadd4aed2c3165dae49d\" class=\"link\"> Attributes &amp; Features
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminAttributesGroups&amp;token=f92480497f91fadd4aed2c3165dae49d\" class=\"link\"> Attributes &amp; Features
                               </a>
                             </li>
 
@@ -502,7 +502,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"16\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminManufacturers&amp;token=d32c4de1ca5c590fb0c941be68b3ddcc\" class=\"link\"> Brands &amp; Suppliers
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminManufacturers&amp;token=d32c4de1ca5c590fb0c941be68b3ddcc\" class=\"link\"> Brands &amp; Suppliers
                               </a>
                             </li>
 
@@ -510,7 +510,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"19\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminAttachments&amp;token=2b824ef98e9a1c063f428cea4f2cc1bf\" class=\"link\"> Arquivos
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminAttachments&amp;token=2b824ef98e9a1c063f428cea4f2cc1bf\" class=\"link\"> Arquivos
                               </a>
                             </li>
 
@@ -518,7 +518,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"20\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCartRules&amp;token=cb7169f263a129b193c1288335c883f4\" class=\"link\"> Descontos
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCartRules&amp;token=cb7169f263a129b193c1288335c883f4\" class=\"link\"> Descontos
                               </a>
                             </li>
 
@@ -536,7 +536,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"24\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCustomers&amp;token=2e23861868e20b2dec9de09130981696\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCustomers&amp;token=2e23861868e20b2dec9de09130981696\" class=\"link\">
                     <i class=\"material-icons\">account_circle</i>
                     <span>
                     Clientes
@@ -549,7 +549,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"25\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCustomers&amp;token=2e23861868e20b2dec9de09130981696\" class=\"link\"> Clientes
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCustomers&amp;token=2e23861868e20b2dec9de09130981696\" class=\"link\"> Clientes
                               </a>
                             </li>
 
@@ -557,7 +557,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"26\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminAddresses&amp;token=a8ecf9affdff80bb909529b19545de42\" class=\"link\"> Endereços
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminAddresses&amp;token=a8ecf9affdff80bb909529b19545de42\" class=\"link\"> Endereços
                               </a>
                             </li>
 
@@ -567,7 +567,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"28\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCustomerThreads&amp;token=723bfbb231feb84cd5a722a487e9d6b8\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCustomerThreads&amp;token=723bfbb231feb84cd5a722a487e9d6b8\" class=\"link\">
                     <i class=\"material-icons\">chat</i>
                     <span>
                     Atendimento ao Cliente
@@ -580,7 +580,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"29\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCustomerThreads&amp;token=723bfbb231feb84cd5a722a487e9d6b8\" class=\"link\"> Atendimento ao Cliente
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCustomerThreads&amp;token=723bfbb231feb84cd5a722a487e9d6b8\" class=\"link\"> Atendimento ao Cliente
                               </a>
                             </li>
 
@@ -588,7 +588,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"30\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminOrderMessage&amp;token=9a8ff61c1a84bbaf4dc8ffedb8af8991\" class=\"link\"> Mensagens de pedidos
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminOrderMessage&amp;token=9a8ff61c1a84bbaf4dc8ffedb8af8991\" class=\"link\"> Mensagens de pedidos
                               </a>
                             </li>
 
@@ -596,7 +596,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"31\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminReturn&amp;token=5931f9fc60ddeb0d7b766ca40931399b\" class=\"link\"> Devoluções de Mercadorias
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminReturn&amp;token=5931f9fc60ddeb0d7b766ca40931399b\" class=\"link\"> Devoluções de Mercadorias
                               </a>
                             </li>
 
@@ -606,7 +606,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"32\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminStats&amp;token=da7d521a11e2b9e7826d03d4abf2e0da\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminStats&amp;token=da7d521a11e2b9e7826d03d4abf2e0da\" class=\"link\">
                     <i class=\"material-icons\">assessment</i>
                     <span>
                     Estatísticas
@@ -649,7 +649,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"46\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminAddonsCatalog&amp;token=75dcddf151ef2aa35155569ead13db1d\" class=\"link\"> Modules Catalog
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminAddonsCatalog&amp;token=75dcddf151ef2aa35155569ead13db1d\" class=\"link\"> Modules Catalog
                               </a>
                             </li>
 
@@ -659,7 +659,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"47\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminThemes&amp;token=dea619a64caebd4e2c3e39e808ff6821\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminThemes&amp;token=dea619a64caebd4e2c3e39e808ff6821\" class=\"link\">
                     <i class=\"material-icons\">desktop_mac</i>
                     <span>
                     Design
@@ -672,7 +672,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"48\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminThemes&amp;token=dea619a64caebd4e2c3e39e808ff6821\" class=\"link\"> Theme &amp; Logo
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminThemes&amp;token=dea619a64caebd4e2c3e39e808ff6821\" class=\"link\"> Theme &amp; Logo
                               </a>
                             </li>
 
@@ -680,7 +680,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"49\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminThemesCatalog&amp;token=c2c4e12c6bb3f4098d0e7da0c31b1c7f\" class=\"link\"> Theme Catalog
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminThemesCatalog&amp;token=c2c4e12c6bb3f4098d0e7da0c31b1c7f\" class=\"link\"> Theme Catalog
                               </a>
                             </li>
 
@@ -688,7 +688,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"50\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCmsContent&amp;token=b8e286861e6e13db06e74d308fbec253\" class=\"link\"> Páginas
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCmsContent&amp;token=b8e286861e6e13db06e74d308fbec253\" class=\"link\"> Páginas
                               </a>
                             </li>
 
@@ -696,7 +696,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"51\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminModulesPositions&amp;token=939ba8ce16bbdcf214600a36307ca521\" class=\"link\"> Posições
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminModulesPositions&amp;token=939ba8ce16bbdcf214600a36307ca521\" class=\"link\"> Posições
                               </a>
                             </li>
 
@@ -704,7 +704,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"52\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminImages&amp;token=d008109abc138616bb2b49a6b52b5df1\" class=\"link\"> Image Settings
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminImages&amp;token=d008109abc138616bb2b49a6b52b5df1\" class=\"link\"> Image Settings
                               </a>
                             </li>
 
@@ -712,7 +712,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"117\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminLinkWidget&amp;token=be5de0287967b93324452d9d9595174e\" class=\"link\"> Link Widget
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminLinkWidget&amp;token=be5de0287967b93324452d9d9595174e\" class=\"link\"> Link Widget
                               </a>
                             </li>
 
@@ -722,7 +722,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"53\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCarriers&amp;token=5f7b01b8c3519088882e5238e1cb9f3a\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCarriers&amp;token=5f7b01b8c3519088882e5238e1cb9f3a\" class=\"link\">
                     <i class=\"material-icons\">local_shipping</i>
                     <span>
                     Frete
@@ -735,7 +735,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"54\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCarriers&amp;token=5f7b01b8c3519088882e5238e1cb9f3a\" class=\"link\"> Transportadoras
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCarriers&amp;token=5f7b01b8c3519088882e5238e1cb9f3a\" class=\"link\"> Transportadoras
                               </a>
                             </li>
 
@@ -743,7 +743,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"55\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminShipping&amp;token=306e7a95da395f881c07751c515e3eef\" class=\"link\"> Preferências
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminShipping&amp;token=306e7a95da395f881c07751c515e3eef\" class=\"link\"> Preferências
                               </a>
                             </li>
 
@@ -753,7 +753,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"56\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPayment&amp;token=809cef169af63cc3d05fcb5cab8d7900\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPayment&amp;token=809cef169af63cc3d05fcb5cab8d7900\" class=\"link\">
                     <i class=\"material-icons\">payment</i>
                     <span>
                     Pagamento
@@ -766,7 +766,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"57\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPayment&amp;token=809cef169af63cc3d05fcb5cab8d7900\" class=\"link\"> Payment Methods
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPayment&amp;token=809cef169af63cc3d05fcb5cab8d7900\" class=\"link\"> Payment Methods
                               </a>
                             </li>
 
@@ -774,7 +774,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"58\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPaymentPreferences&amp;token=5ceb3b8683f43e120eb5cf8581e915b5\" class=\"link\"> Preferências
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPaymentPreferences&amp;token=5ceb3b8683f43e120eb5cf8581e915b5\" class=\"link\"> Preferências
                               </a>
                             </li>
 
@@ -784,7 +784,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"59\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminLocalization&amp;token=d08de7f9e3398a961efc6b92fbf386ad\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminLocalization&amp;token=d08de7f9e3398a961efc6b92fbf386ad\" class=\"link\">
                     <i class=\"material-icons\">language</i>
                     <span>
                     Internacional
@@ -797,7 +797,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"60\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminLocalization&amp;token=d08de7f9e3398a961efc6b92fbf386ad\" class=\"link\"> Localização
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminLocalization&amp;token=d08de7f9e3398a961efc6b92fbf386ad\" class=\"link\"> Localização
                               </a>
                             </li>
 
@@ -805,7 +805,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"65\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCountries&amp;token=07e9f43a6344ea84be576adf24e10aa4\" class=\"link\"> Locations
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCountries&amp;token=07e9f43a6344ea84be576adf24e10aa4\" class=\"link\"> Locations
                               </a>
                             </li>
 
@@ -813,7 +813,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"69\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminTaxes&amp;token=efbbfcf9f09afc4a8b0162ceb07ef40f\" class=\"link\"> Taxas
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminTaxes&amp;token=efbbfcf9f09afc4a8b0162ceb07ef40f\" class=\"link\"> Taxas
                               </a>
                             </li>
 
@@ -821,7 +821,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"72\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminTranslations&amp;token=56938f76ee535f3bf91b65718fe9efec\" class=\"link\"> Traduções
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminTranslations&amp;token=56938f76ee535f3bf91b65718fe9efec\" class=\"link\"> Traduções
                               </a>
                             </li>
 
@@ -841,7 +841,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"74\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPreferences&amp;token=08cf5fa0fb3c582b7942dae42b2c3126\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPreferences&amp;token=08cf5fa0fb3c582b7942dae42b2c3126\" class=\"link\">
                     <i class=\"material-icons\">settings</i>
                     <span>
                     Shop Parameters
@@ -854,7 +854,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"75\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPreferences&amp;token=08cf5fa0fb3c582b7942dae42b2c3126\" class=\"link\"> Geral
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPreferences&amp;token=08cf5fa0fb3c582b7942dae42b2c3126\" class=\"link\"> Geral
                               </a>
                             </li>
 
@@ -862,7 +862,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"78\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminOrderPreferences&amp;token=4331f22e50747784b062e905870e0542\" class=\"link\"> Order Settings
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminOrderPreferences&amp;token=4331f22e50747784b062e905870e0542\" class=\"link\"> Order Settings
                               </a>
                             </li>
 
@@ -870,7 +870,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"81\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPPreferences&amp;token=9afe58d493169ae7459bd95b836aba85\" class=\"link\"> Produtos
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPPreferences&amp;token=9afe58d493169ae7459bd95b836aba85\" class=\"link\"> Produtos
                               </a>
                             </li>
 
@@ -878,7 +878,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"82\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminCustomerPreferences&amp;token=5ad1ea375b8a6b6c6ab20dcdb5470e7a\" class=\"link\"> Customer Settings
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminCustomerPreferences&amp;token=5ad1ea375b8a6b6c6ab20dcdb5470e7a\" class=\"link\"> Customer Settings
                               </a>
                             </li>
 
@@ -886,7 +886,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"86\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminContacts&amp;token=7ec0e59c34b9f8b3b990183382060fde\" class=\"link\"> Contato
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminContacts&amp;token=7ec0e59c34b9f8b3b990183382060fde\" class=\"link\"> Contato
                               </a>
                             </li>
 
@@ -894,7 +894,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"89\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminMeta&amp;token=da3778cca44b6ace472cd0a7f028794a\" class=\"link\"> Traffic &amp; SEO
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminMeta&amp;token=da3778cca44b6ace472cd0a7f028794a\" class=\"link\"> Traffic &amp; SEO
                               </a>
                             </li>
 
@@ -902,7 +902,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"93\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminSearchConf&amp;token=ce1b5276aa7facfafd7f7ebb1cf564b5\" class=\"link\"> Busca
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminSearchConf&amp;token=ce1b5276aa7facfafd7f7ebb1cf564b5\" class=\"link\"> Busca
                               </a>
                             </li>
 
@@ -910,7 +910,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"119\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminGamification&amp;token=06d54403bf180c4643147d44131eacb1\" class=\"link\"> Merchant Expertise
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminGamification&amp;token=06d54403bf180c4643147d44131eacb1\" class=\"link\"> Merchant Expertise
                               </a>
                             </li>
 
@@ -920,7 +920,7 @@ var show_new_orders = \"1\";
                 
                                 
                 <li class=\"link-levelone \" data-submenu=\"96\">
-                  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminInformation&amp;token=ad2979704012452ccac55d1543a6c1c6\" class=\"link\">
+                  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminInformation&amp;token=ad2979704012452ccac55d1543a6c1c6\" class=\"link\">
                     <i class=\"material-icons\">settings_applications</i>
                     <span>
                     Parâmetros Avançados
@@ -933,7 +933,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"97\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminInformation&amp;token=ad2979704012452ccac55d1543a6c1c6\" class=\"link\"> Informação
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminInformation&amp;token=ad2979704012452ccac55d1543a6c1c6\" class=\"link\"> Informação
                               </a>
                             </li>
 
@@ -941,7 +941,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"98\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminPerformance&amp;token=6d7d221d4ff1c818d18941a42eadfe69\" class=\"link\"> Desempenho
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminPerformance&amp;token=6d7d221d4ff1c818d18941a42eadfe69\" class=\"link\"> Desempenho
                               </a>
                             </li>
 
@@ -949,7 +949,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"99\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminAdminPreferences&amp;token=1c4fc07a72b145976a3d013f6e54af91\" class=\"link\"> Administração
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminAdminPreferences&amp;token=1c4fc07a72b145976a3d013f6e54af91\" class=\"link\"> Administração
                               </a>
                             </li>
 
@@ -957,7 +957,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"100\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminEmails&amp;token=16a56bdfd48ec1c721692e0be3499bd4\" class=\"link\"> Email
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminEmails&amp;token=16a56bdfd48ec1c721692e0be3499bd4\" class=\"link\"> Email
                               </a>
                             </li>
 
@@ -965,7 +965,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"101\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminImport&amp;token=d0dfed107c54041cbc4337c07f63e88b\" class=\"link\"> Importar
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminImport&amp;token=d0dfed107c54041cbc4337c07f63e88b\" class=\"link\"> Importar
                               </a>
                             </li>
 
@@ -973,7 +973,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"102\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminEmployees&amp;token=7f0130f8df9ac56f13217c9af9d87550\" class=\"link\"> Empregados
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminEmployees&amp;token=7f0130f8df9ac56f13217c9af9d87550\" class=\"link\"> Empregados
                               </a>
                             </li>
 
@@ -981,7 +981,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"106\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminRequestSql&amp;token=2c9e7192ef8b78901947fdded98eb9e2\" class=\"link\"> Database
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminRequestSql&amp;token=2c9e7192ef8b78901947fdded98eb9e2\" class=\"link\"> Database
                               </a>
                             </li>
 
@@ -989,7 +989,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"109\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminLogs&amp;token=f6d3953a3ff83c74f04edd0be31a37d1\" class=\"link\"> Logs
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminLogs&amp;token=f6d3953a3ff83c74f04edd0be31a37d1\" class=\"link\"> Logs
                               </a>
                             </li>
 
@@ -997,7 +997,7 @@ var show_new_orders = \"1\";
                             
                                                         
                             <li class=\"link-leveltwo \" data-submenu=\"110\">
-                              <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminWebservice&amp;token=261654bfa9b3b4979db93db6e47aa250\" class=\"link\"> WebService
+                              <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminWebservice&amp;token=261654bfa9b3b4979db93db6e47aa250\" class=\"link\"> WebService
                               </a>
                             </li>
 
@@ -1043,7 +1043,7 @@ var show_new_orders = \"1\";
     <ol class=\"breadcrumb\">
 
               <li>
-                      <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminParentModulesSf&amp;token=c4dcae4c4c2a3af1f1d38355d995be23\">Módulos</a>
+                      <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminParentModulesSf&amp;token=c4dcae4c4c2a3af1f1d38355d995be23\">Módulos</a>
                   </li>
       
       
@@ -1115,7 +1115,7 @@ var show_new_orders = \"1\";
 \t\t\t\t\t\t<!--start addons login-->
 \t\t\t<form id=\"addons_login_form\" method=\"post\" >
 \t\t\t\t<div>
-\t\t\t\t\t<a href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2Flocalhost%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\"><img class=\"img-responsive center-block\" src=\"/campanari/admin360qsfgii/themes/default/img/prestashop-addons-logo.png\" alt=\"Logo PrestaShop Addons\"/></a>
+\t\t\t\t\t<a href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2F13.56.14.158%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\"><img class=\"img-responsive center-block\" src=\"/campanari/admin360qsfgii/themes/default/img/prestashop-addons-logo.png\" alt=\"Logo PrestaShop Addons\"/></a>
 \t\t\t\t\t<h3 class=\"text-center\">Connect your shop to PrestaShop's marketplace in order to automatically import all your Addons purchases.</h3>
 \t\t\t\t\t<hr />
 \t\t\t\t</div>
@@ -1146,7 +1146,7 @@ var show_new_orders = \"1\";
 \t\t\t\t<div class=\"row row-padding-top\">
 \t\t\t\t\t<div class=\"col-md-6\">
 \t\t\t\t\t\t<div class=\"form-group\">
-\t\t\t\t\t\t\t<a class=\"btn btn-default btn-block btn-lg _blank\" href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2Flocalhost%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\">
+\t\t\t\t\t\t\t<a class=\"btn btn-default btn-block btn-lg _blank\" href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2F13.56.14.158%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\">
 \t\t\t\t\t\t\t\tCriar uma conta
 \t\t\t\t\t\t\t\t<i class=\"icon-external-link\"></i>
 \t\t\t\t\t\t\t</a>
@@ -1218,7 +1218,7 @@ var show_new_orders = \"1\";
   var onBoarding;
 
   \$(function(){
-    onBoarding = new OnBoarding(0, {\"groups\":[{\"steps\":[{\"type\":\"popup\",\"text\":\"\\n<div class=\\\"onboarding-welcome\\\">\\n  <i class=\\\"material-icons onboarding-button-shut-down\\\">close<\\/i>\\n  <p class=\\\"welcome\\\">Welcome to your shop!<\\/p>\\n  <div class=\\\"content\\\">\\n    <p>Hi! My name is Preston and I'm here to show you around.<\\/p>\\n    <p>You will discover a few essential steps before you can launch your shop:\\n    Create your first product, customize your shop, configure shipping and payments...<\\/p>\\n  <\\/div>\\n  <div class=\\\"started\\\">\\n    <p>Let's get started!<\\/p>\\n  <\\/div>\\n  <div class=\\\"buttons\\\">\\n    <button class=\\\"btn btn-tertiary-outline btn-lg onboarding-button-shut-down\\\">Later<\\/button>\\n    <button class=\\\"blue-balloon btn btn-primary btn-lg with-spinner onboarding-button-next\\\">Start<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"index.php?controller=AdminDashboard\"}]},{\"title\":\"Let's create your first product\",\"subtitle\":{\"1\":\"What do you want to tell about it? Think about what your customers want to know.\",\"2\":\"Add clear and attractive information. Don't worry, you can edit it later :)\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Give your product a catchy name.\",\"options\":[\"savepoint\"],\"page\":[\"index.php\\/product\\/new\",\"index.php\\/product\\/form\"],\"selector\":\"#form_step1_name_1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Fill out the essential details in this tab. The other tabs are for more advanced information.\",\"page\":\"index.php\\/product\\/form\",\"selector\":\"#tab_step1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Add one or more pictures so your product looks tempting!\",\"page\":\"index.php\\/product\\/form\",\"selector\":\"#product-images-dropzone\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"How much do you want to sell it for?\",\"page\":\"index.php\\/product\\/form\",\"selector\":\".right-column > .row > .col-md-12 > .form-group:nth-child(4) > .row > .col-md-6:first-child > .input-group\",\"position\":\"left\",\"action\":{\"selector\":\"#product_form_save_go_to_catalog_btn\",\"action\":\"click\"}},{\"type\":\"tooltip\",\"text\":\"Yay! You just created your first product. Looks good, right?\",\"page\":\"index.php\\/product\\/catalog\",\"selector\":\"#product_catalog_list table tr:first-child td:nth-child(3)\",\"position\":\"left\"}]},{\"title\":\"Give your shop its own identity\",\"subtitle\":{\"1\":\"How do you want your shop to look? What makes it so special?\",\"2\":\"Customize your theme or choose the best design from our theme catalog.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"A good way to start is to add your own logo here!\",\"options\":[\"savepoint\"],\"page\":\"index.php?controller=AdminThemes\",\"selector\":\"#js_theme_form_container .tab-content.panel .btn:first-child\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"If you want something really special, have a look at the theme catalog!\",\"page\":\"index.php?controller=AdminThemesCatalog\",\"selector\":\".addons-theme-one:first-child\",\"position\":\"right\"}]},{\"title\":\"Deixe sua loja pronta para receber pagamentos\",\"subtitle\":{\"1\":\"How do you want your customers to pay you?\",\"2\":\"Adapt your offer to your market: add the most popular payment methods for your customers!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"These payment methods are already available to your customers.\",\"options\":[\"savepoint\"],\"page\":\"index.php?controller=AdminPayment\",\"selector\":\".modules_list_container_tab:first tr:first-child .text-muted\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"And you can choose to add other payment methods from here!\",\"page\":\"index.php?controller=AdminPayment\",\"selector\":\".panel:eq(1) table tr:eq(0) td:eq(1)\",\"position\":\"top\"}]},{\"title\":\"Choose your shipping solutions\",\"subtitle\":{\"1\":\"How do you want to deliver your products?\",\"2\":\"Select the shipping solutions the most likely to suit your customers! Create your own carrier or add a ready-made module.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Here are the shipping methods available on your shop today.\",\"options\":[\"savepoint\"],\"page\":\"index.php?controller=AdminCarriers\",\"selector\":\"#table-carrier tr:eq(2) td:eq(3)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"You can offer more delivery options by setting up additional carriers\",\"page\":\"index.php?controller=AdminCarriers\",\"selector\":\".modules_list_container_tab tr:eq(0) .text-muted\",\"position\":\"right\"}]},{\"title\":\"Improve your shop with modules\",\"subtitle\":{\"1\":\"Add new features and manage existing ones thanks to modules.\",\"2\":\"Some modules are already pre-installed, others may be free or paid modules - browse our selection and find out what is available!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Discover our module selection in the first tab. Manage your modules on the second one and be aware of notifications in the third tab.\",\"options\":[\"savepoint\"],\"page\":\"index.php\\/module\\/catalog\",\"selector\":\".page-head-tabs .tab:eq(0)\",\"position\":\"right\"},{\"type\":\"popup\",\"text\":\"\\n<div id=\\\"onboarding-welcome\\\" class=\\\"modal-header\\\">\\n  <button class=\\\"onboarding-button-next pull-right close\\\" type=\\\"button\\\">&times;<\\/button>\\n  <h2 class=\\\"text-center text-md-center\\\">Over to you!<\\/h2>\\n  <p class=\\\"text-center text-md-center\\\">\\n    You've seen the essential, but there's a lot more to explore.<br \\/>\\n    Some ressources can help you go further:\\n  <\\/p>\\n  <div class=\\\"container-fluid\\\">\\n    <div class=\\\"row\\\">\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"http:\\/\\/doc.prestashop.com\\/display\\/PS17\\/Getting+Started\\\" target=\\\"_blank\\\">\\n          <div class=\\\"starter-guide\\\"><\\/div>\\n          <span class=\\\"link\\\">Starter Guide<\\/span>\\n        <\\/a>\\n      <\\/div>\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/forums\\/\\\" target=\\\"_blank\\\">\\n          <div class=\\\"forum\\\"><\\/div>\\n          <span class=\\\"link\\\">F\\u00f3rum<\\/span>\\n        <\\/a>\\n      <\\/div>\\n    <\\/div>\\n    <div class=\\\"row\\\">\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/en\\/training-prestashop\\\" target=\\\"_blank\\\">\\n          <div class=\\\"training\\\"><\\/div>\\n          <span class=\\\"link\\\">Treinamento<\\/span>\\n        <\\/a>\\n      <\\/div>\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.youtube.com\\/user\\/prestashop\\\" target=\\\"_blank\\\">\\n          <div class=\\\"video-tutorial\\\"><\\/div>\\n          <span class=\\\"link\\\">Video tutorial<\\/span>\\n        <\\/a>\\n      <\\/div>\\n    <\\/div>\\n  <\\/div>\\n  <br \\/>\\n  <div class=\\\"text-center text-md-center\\\">\\n      <button class=\\\"btn btn-primary onboarding-button-next\\\">I'm ready<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"index.php\\/product\\/catalog\"}]}]}, 1, \"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminWelcome&token=e6b139af3fabbdb33e4f8bb81f7c2e45\", baseAdminDir);
+    onBoarding = new OnBoarding(0, {\"groups\":[{\"steps\":[{\"type\":\"popup\",\"text\":\"\\n<div class=\\\"onboarding-welcome\\\">\\n  <i class=\\\"material-icons onboarding-button-shut-down\\\">close<\\/i>\\n  <p class=\\\"welcome\\\">Welcome to your shop!<\\/p>\\n  <div class=\\\"content\\\">\\n    <p>Hi! My name is Preston and I'm here to show you around.<\\/p>\\n    <p>You will discover a few essential steps before you can launch your shop:\\n    Create your first product, customize your shop, configure shipping and payments...<\\/p>\\n  <\\/div>\\n  <div class=\\\"started\\\">\\n    <p>Let's get started!<\\/p>\\n  <\\/div>\\n  <div class=\\\"buttons\\\">\\n    <button class=\\\"btn btn-tertiary-outline btn-lg onboarding-button-shut-down\\\">Later<\\/button>\\n    <button class=\\\"blue-balloon btn btn-primary btn-lg with-spinner onboarding-button-next\\\">Start<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"index.php?controller=AdminDashboard\"}]},{\"title\":\"Let's create your first product\",\"subtitle\":{\"1\":\"What do you want to tell about it? Think about what your customers want to know.\",\"2\":\"Add clear and attractive information. Don't worry, you can edit it later :)\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Give your product a catchy name.\",\"options\":[\"savepoint\"],\"page\":[\"index.php\\/product\\/new\",\"index.php\\/product\\/form\"],\"selector\":\"#form_step1_name_1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Fill out the essential details in this tab. The other tabs are for more advanced information.\",\"page\":\"index.php\\/product\\/form\",\"selector\":\"#tab_step1\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"Add one or more pictures so your product looks tempting!\",\"page\":\"index.php\\/product\\/form\",\"selector\":\"#product-images-dropzone\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"How much do you want to sell it for?\",\"page\":\"index.php\\/product\\/form\",\"selector\":\".right-column > .row > .col-md-12 > .form-group:nth-child(4) > .row > .col-md-6:first-child > .input-group\",\"position\":\"left\",\"action\":{\"selector\":\"#product_form_save_go_to_catalog_btn\",\"action\":\"click\"}},{\"type\":\"tooltip\",\"text\":\"Yay! You just created your first product. Looks good, right?\",\"page\":\"index.php\\/product\\/catalog\",\"selector\":\"#product_catalog_list table tr:first-child td:nth-child(3)\",\"position\":\"left\"}]},{\"title\":\"Give your shop its own identity\",\"subtitle\":{\"1\":\"How do you want your shop to look? What makes it so special?\",\"2\":\"Customize your theme or choose the best design from our theme catalog.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"A good way to start is to add your own logo here!\",\"options\":[\"savepoint\"],\"page\":\"index.php?controller=AdminThemes\",\"selector\":\"#js_theme_form_container .tab-content.panel .btn:first-child\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"If you want something really special, have a look at the theme catalog!\",\"page\":\"index.php?controller=AdminThemesCatalog\",\"selector\":\".addons-theme-one:first-child\",\"position\":\"right\"}]},{\"title\":\"Deixe sua loja pronta para receber pagamentos\",\"subtitle\":{\"1\":\"How do you want your customers to pay you?\",\"2\":\"Adapt your offer to your market: add the most popular payment methods for your customers!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"These payment methods are already available to your customers.\",\"options\":[\"savepoint\"],\"page\":\"index.php?controller=AdminPayment\",\"selector\":\".modules_list_container_tab:first tr:first-child .text-muted\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"And you can choose to add other payment methods from here!\",\"page\":\"index.php?controller=AdminPayment\",\"selector\":\".panel:eq(1) table tr:eq(0) td:eq(1)\",\"position\":\"top\"}]},{\"title\":\"Choose your shipping solutions\",\"subtitle\":{\"1\":\"How do you want to deliver your products?\",\"2\":\"Select the shipping solutions the most likely to suit your customers! Create your own carrier or add a ready-made module.\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Here are the shipping methods available on your shop today.\",\"options\":[\"savepoint\"],\"page\":\"index.php?controller=AdminCarriers\",\"selector\":\"#table-carrier tr:eq(2) td:eq(3)\",\"position\":\"right\"},{\"type\":\"tooltip\",\"text\":\"You can offer more delivery options by setting up additional carriers\",\"page\":\"index.php?controller=AdminCarriers\",\"selector\":\".modules_list_container_tab tr:eq(0) .text-muted\",\"position\":\"right\"}]},{\"title\":\"Improve your shop with modules\",\"subtitle\":{\"1\":\"Add new features and manage existing ones thanks to modules.\",\"2\":\"Some modules are already pre-installed, others may be free or paid modules - browse our selection and find out what is available!\"},\"steps\":[{\"type\":\"tooltip\",\"text\":\"Discover our module selection in the first tab. Manage your modules on the second one and be aware of notifications in the third tab.\",\"options\":[\"savepoint\"],\"page\":\"index.php\\/module\\/catalog\",\"selector\":\".page-head-tabs .tab:eq(0)\",\"position\":\"right\"},{\"type\":\"popup\",\"text\":\"\\n<div id=\\\"onboarding-welcome\\\" class=\\\"modal-header\\\">\\n  <button class=\\\"onboarding-button-next pull-right close\\\" type=\\\"button\\\">&times;<\\/button>\\n  <h2 class=\\\"text-center text-md-center\\\">Over to you!<\\/h2>\\n  <p class=\\\"text-center text-md-center\\\">\\n    You've seen the essential, but there's a lot more to explore.<br \\/>\\n    Some ressources can help you go further:\\n  <\\/p>\\n  <div class=\\\"container-fluid\\\">\\n    <div class=\\\"row\\\">\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"http:\\/\\/doc.prestashop.com\\/display\\/PS17\\/Getting+Started\\\" target=\\\"_blank\\\">\\n          <div class=\\\"starter-guide\\\"><\\/div>\\n          <span class=\\\"link\\\">Starter Guide<\\/span>\\n        <\\/a>\\n      <\\/div>\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/forums\\/\\\" target=\\\"_blank\\\">\\n          <div class=\\\"forum\\\"><\\/div>\\n          <span class=\\\"link\\\">F\\u00f3rum<\\/span>\\n        <\\/a>\\n      <\\/div>\\n    <\\/div>\\n    <div class=\\\"row\\\">\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.prestashop.com\\/en\\/training-prestashop\\\" target=\\\"_blank\\\">\\n          <div class=\\\"training\\\"><\\/div>\\n          <span class=\\\"link\\\">Treinamento<\\/span>\\n        <\\/a>\\n      <\\/div>\\n      <div class=\\\"col-md-6 text-center text-md-center link-container\\\">\\n        <a class=\\\"final-link\\\" href=\\\"https:\\/\\/www.youtube.com\\/user\\/prestashop\\\" target=\\\"_blank\\\">\\n          <div class=\\\"video-tutorial\\\"><\\/div>\\n          <span class=\\\"link\\\">Video tutorial<\\/span>\\n        <\\/a>\\n      <\\/div>\\n    <\\/div>\\n  <\\/div>\\n  <br \\/>\\n  <div class=\\\"text-center text-md-center\\\">\\n      <button class=\\\"btn btn-primary onboarding-button-next\\\">I'm ready<\\/button>\\n  <\\/div>\\n<\\/div>\\n\",\"options\":[\"savepoint\",\"hideFooter\"],\"page\":\"index.php\\/product\\/catalog\"}]}]}, 1, \"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminWelcome&token=e6b139af3fabbdb33e4f8bb81f7c2e45\", baseAdminDir);
 
           onBoarding.addTemplate('lost', '<div class=\"onboarding onboarding-popup bootstrap\">  <div class=\"content\">    <p>Hey! Are you lost?</p>    <p>To continue, click here:</p>    <div class=\"text-center\">      <button class=\"btn btn-primary onboarding-button-goto-current\">Continuar</button>    </div>    <p>If you want to stop the tutorial for good, click here:</p>    <div class=\"text-center\">      <button class=\"btn btn-alert onboarding-button-stop\">Quit the Welcome tutorial</button>    </div>  </div></div>');
           onBoarding.addTemplate('popup', '<div class=\"onboarding-popup bootstrap\">  <div class=\"content\"></div></div>');
@@ -1299,7 +1299,7 @@ var show_new_orders = \"1\";
   <p class=\"m-t-2\">
     Thank you.
   </p>
-  <a href=\"http://localhost/campanari/admin360qsfgii/index.php?controller=AdminDashboard&amp;token=2b4f2a4b77f5765e80759ef67df4ac2e\" class=\"btn btn-primary p-y-1 m-t-3\">
+  <a href=\"http://13.56.14.158/campanari/admin360qsfgii/index.php?controller=AdminDashboard&amp;token=2b4f2a4b77f5765e80759ef67df4ac2e\" class=\"btn btn-primary p-y-1 m-t-3\">
     <i class=\"material-icons\">arrow_back</i>
     Voltar
   </a>
@@ -1385,7 +1385,7 @@ var show_new_orders = \"1\";
 \t\t\t\t\t\t<!--start addons login-->
 \t\t\t<form id=\"addons_login_form\" method=\"post\" >
 \t\t\t\t<div>
-\t\t\t\t\t<a href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2Flocalhost%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\"><img class=\"img-responsive center-block\" src=\"/campanari/admin360qsfgii/themes/default/img/prestashop-addons-logo.png\" alt=\"Logo PrestaShop Addons\"/></a>
+\t\t\t\t\t<a href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2F13.56.14.158%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\"><img class=\"img-responsive center-block\" src=\"/campanari/admin360qsfgii/themes/default/img/prestashop-addons-logo.png\" alt=\"Logo PrestaShop Addons\"/></a>
 \t\t\t\t\t<h3 class=\"text-center\">Connect your shop to PrestaShop's marketplace in order to automatically import all your Addons purchases.</h3>
 \t\t\t\t\t<hr />
 \t\t\t\t</div>
@@ -1416,7 +1416,7 @@ var show_new_orders = \"1\";
 \t\t\t\t<div class=\"row row-padding-top\">
 \t\t\t\t\t<div class=\"col-md-6\">
 \t\t\t\t\t\t<div class=\"form-group\">
-\t\t\t\t\t\t\t<a class=\"btn btn-default btn-block btn-lg _blank\" href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2Flocalhost%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\">
+\t\t\t\t\t\t\t<a class=\"btn btn-default btn-block btn-lg _blank\" href=\"https://addons.prestashop.com/br/login?email=atendimento%40campanariart.com.br&amp;firstname=Michele&amp;lastname=Michele&amp;website=http%3A%2F%2F13.56.14.158%2Fcampanari%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-BR&amp;utm_content=download#createnow\">
 \t\t\t\t\t\t\t\tCriar uma conta
 \t\t\t\t\t\t\t\t<i class=\"icon-external-link\"></i>
 \t\t\t\t\t\t\t</a>

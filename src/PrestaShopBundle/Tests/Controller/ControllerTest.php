@@ -157,7 +157,7 @@ class ControllerTest extends \PHPUnit_Framework_TestCase
 
         define('_PS_BO_ALL_THEMES_DIR_', '');
         define('_PS_TAB_MODULE_LIST_URL_', '');
-        define('_DB_SERVER_', 'localhost');
+        define('_DB_SERVER_', '13.56.14.158');
         define('_DB_USER_', $configuration['parameters']['database_user']);
         define('_DB_PASSWD_', $configuration['parameters']['database_password']);
         define('_DB_NAME_', $configuration['parameters']['database_name']);

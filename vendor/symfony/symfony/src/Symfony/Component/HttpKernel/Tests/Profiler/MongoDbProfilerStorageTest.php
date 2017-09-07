@@ -50,23 +50,23 @@ class MongoDbProfilerStorageTest extends AbstractProfilerStorageTest
     public function getDsns()
     {
         return array(
-            array('mongodb://localhost/symfony_tests/profiler_data', array(
-                'mongodb://localhost/symfony_tests',
+            array('mongodb://13.56.14.158/symfony_tests/profiler_data', array(
+                'mongodb://13.56.14.158/symfony_tests',
                 'symfony_tests',
                 'profiler_data',
             )),
-            array('mongodb://user:password@localhost/symfony_tests/profiler_data', array(
-                'mongodb://user:password@localhost/symfony_tests',
+            array('mongodb://user:password@13.56.14.158/symfony_tests/profiler_data', array(
+                'mongodb://user:password@13.56.14.158/symfony_tests',
                 'symfony_tests',
                 'profiler_data',
             )),
-            array('mongodb://user:password@localhost/admin/symfony_tests/profiler_data', array(
-                'mongodb://user:password@localhost/admin',
+            array('mongodb://user:password@13.56.14.158/admin/symfony_tests/profiler_data', array(
+                'mongodb://user:password@13.56.14.158/admin',
                 'symfony_tests',
                 'profiler_data',
             )),
-            array('mongodb://user:password@localhost:27009,localhost:27010/?replicaSet=rs-name&authSource=admin/symfony_tests/profiler_data', array(
-                'mongodb://user:password@localhost:27009,localhost:27010/?replicaSet=rs-name&authSource=admin',
+            array('mongodb://user:password@13.56.14.158:27009,13.56.14.158:27010/?replicaSet=rs-name&authSource=admin/symfony_tests/profiler_data', array(
+                'mongodb://user:password@13.56.14.158:27009,13.56.14.158:27010/?replicaSet=rs-name&authSource=admin',
                 'symfony_tests',
                 'profiler_data',
             )),
@@ -132,13 +132,13 @@ class MongoDbProfilerStorageTest extends AbstractProfilerStorageTest
 
     protected function setUp()
     {
-        $this->storage = new MongoDbProfilerStorage('mongodb://localhost/symfony_tests/profiler_data', '', '', 86400);
+        $this->storage = new MongoDbProfilerStorage('mongodb://13.56.14.158/symfony_tests/profiler_data', '', '', 86400);
         $m = new \ReflectionMethod($this->storage, 'getMongo');
         $m->setAccessible(true);
         try {
             $m->invoke($this->storage);
         } catch (\MongoConnectionException $e) {
-            $this->markTestSkipped('A MongoDB server on localhost is required.');
+            $this->markTestSkipped('A MongoDB server on 13.56.14.158 is required.');
         }
 
         $this->storage->purge();

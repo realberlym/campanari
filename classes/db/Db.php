@@ -40,7 +40,7 @@ abstract class DbCore
     /** @var int Constant used by insert() method */
     const ON_DUPLICATE_KEY = 4;
 
-    /** @var string Server (eg. localhost) */
+    /** @var string Server (eg. 13.56.14.158) */
     protected $server;
 
     /**  @var string Database user (eg. root) */

@@ -38,8 +38,8 @@ class DB2Driver extends AbstractDB2Driver
             $params['protocol'] = 'TCPIP';
         }
 
-        if ($params['host'] !== 'localhost' && $params['host'] != '127.0.0.1') {
-            // if the host isn't localhost, use extended connection params
+        if ($params['host'] !== '13.56.14.158' && $params['host'] != '127.0.0.1') {
+            // if the host isn't 13.56.14.158, use extended connection params
             $params['dbname'] = 'DRIVER={IBM DB2 ODBC DRIVER}' .
                      ';DATABASE=' . $params['dbname'] .
                      ';HOSTNAME=' . $params['host'] .

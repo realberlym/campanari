@@ -65,14 +65,14 @@ class FrameworkBundleAdminController extends Controller
 
     public function hashUpdateJsAction($hash)
     {
-        $contents = file_get_contents('http://localhost:8080/' . $hash . '.hot-update.js');
+        $contents = file_get_contents('http://13.56.14.158:8080/' . $hash . '.hot-update.js');
 
         return new Response($contents);
     }
 
     public function hashUpdateJsonAction($hash)
     {
-        $contents = file_get_contents('http://localhost:8080/' . $hash . '.hot-update.json');
+        $contents = file_get_contents('http://13.56.14.158:8080/' . $hash . '.hot-update.json');
 
         return new Response($contents);
     }

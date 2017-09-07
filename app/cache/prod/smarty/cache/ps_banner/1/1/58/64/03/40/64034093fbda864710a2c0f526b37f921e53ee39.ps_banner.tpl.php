@@ -15,7 +15,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_59adcb18c32270_19117271')) {function content_59adcb18c32270_19117271($_smarty_tpl) {?><a class="banner" href="http://localhost/campanari/" title="">
-      <img src="http://localhost/campanari/modules/ps_banner/img/e483913456c26dba649c80a0dcb297f0.png" alt="" title="" class="img-fluid">
+<?php if ($_valid && !is_callable('content_59adcb18c32270_19117271')) {function content_59adcb18c32270_19117271($_smarty_tpl) {?><a class="banner" href="http://13.56.14.158/campanari/" title="">
+      <img src="http://13.56.14.158/campanari/modules/ps_banner/img/e483913456c26dba649c80a0dcb297f0.png" alt="" title="" class="img-fluid">
   </a>
 <?php }} ?>

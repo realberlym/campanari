@@ -637,7 +637,7 @@ class HttpCacheTest extends HttpCacheTestCase
         $r = new \ReflectionObject($this->store);
         $m = $r->getMethod('save');
         $m->setAccessible(true);
-        $m->invoke($this->store, 'md'.hash('sha256', 'http://localhost/'), serialize($tmp));
+        $m->invoke($this->store, 'md'.hash('sha256', 'http://13.56.14.158/'), serialize($tmp));
 
         $this->request('GET', '/');
         $this->assertHttpKernelIsCalled();
@@ -687,7 +687,7 @@ class HttpCacheTest extends HttpCacheTestCase
         $r = new \ReflectionObject($this->store);
         $m = $r->getMethod('save');
         $m->setAccessible(true);
-        $m->invoke($this->store, 'md'.hash('sha256', 'http://localhost/'), serialize($tmp));
+        $m->invoke($this->store, 'md'.hash('sha256', 'http://13.56.14.158/'), serialize($tmp));
 
         $this->request('GET', '/');
         $this->assertHttpKernelIsCalled();
@@ -747,7 +747,7 @@ class HttpCacheTest extends HttpCacheTestCase
         $r = new \ReflectionObject($this->store);
         $m = $r->getMethod('save');
         $m->setAccessible(true);
-        $m->invoke($this->store, 'md'.hash('sha256', 'http://localhost/'), serialize($tmp));
+        $m->invoke($this->store, 'md'.hash('sha256', 'http://13.56.14.158/'), serialize($tmp));
 
         // build subsequent request; should be found but miss due to freshness
         $this->request('GET', '/');
@@ -1210,7 +1210,7 @@ class HttpCacheTest extends HttpCacheTestCase
         $this->assertEquals(12, $this->response->headers->get('Content-Length'));
     }
 
-    public function testClientIpIsAlwaysLocalhostForForwardedRequests()
+    public function testClientIpIsAlways13.56.14.158ForForwardedRequests()
     {
         $this->setNextResponse();
         $this->request('GET', '/', array('REMOTE_ADDR' => '10.0.0.1'));

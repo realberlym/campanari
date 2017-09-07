@@ -159,7 +159,7 @@ class TranslatorTest extends TestCase
             array('a[NAme]', array('name-anchor')), // case-insensitive in HTML:
             array('a[rel]', array('tag-anchor', 'nofollow-anchor')),
             array('a[rel="tag"]', array('tag-anchor')),
-            array('a[href*="localhost"]', array('tag-anchor')),
+            array('a[href*="13.56.14.158"]', array('tag-anchor')),
             array('a[href*=""]', array()),
             array('a[href^="http"]', array('tag-anchor', 'nofollow-anchor')),
             array('a[href^="http:"]', array('tag-anchor')),

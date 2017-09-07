@@ -78,8 +78,8 @@ class PhpGeneratorDumperTest extends TestCase
         $relativeUrlWithParameter = $projectUrlGenerator->generate('Test', array('foo' => 'bar'), UrlGeneratorInterface::ABSOLUTE_PATH);
         $relativeUrlWithoutParameter = $projectUrlGenerator->generate('Test2', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-        $this->assertEquals('http://localhost/app.php/testing/bar', $absoluteUrlWithParameter);
-        $this->assertEquals('http://localhost/app.php/testing2', $absoluteUrlWithoutParameter);
+        $this->assertEquals('http://13.56.14.158/app.php/testing/bar', $absoluteUrlWithParameter);
+        $this->assertEquals('http://13.56.14.158/app.php/testing2', $absoluteUrlWithoutParameter);
         $this->assertEquals('/app.php/testing/bar', $relativeUrlWithParameter);
         $this->assertEquals('/app.php/testing2', $relativeUrlWithoutParameter);
     }
@@ -109,8 +109,8 @@ class PhpGeneratorDumperTest extends TestCase
         $relativeUrlWithParameter = $projectUrlGenerator->generate('Test', array('foo' => 'bar'), UrlGeneratorInterface::ABSOLUTE_PATH);
         $relativeUrlWithoutParameter = $projectUrlGenerator->generate('Test2', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-        $this->assertEquals('http://localhost/app.php/testing/bar', $absoluteUrlWithParameter);
-        $this->assertEquals('http://localhost/app.php/testing2', $absoluteUrlWithoutParameter);
+        $this->assertEquals('http://13.56.14.158/app.php/testing/bar', $absoluteUrlWithParameter);
+        $this->assertEquals('http://13.56.14.158/app.php/testing2', $absoluteUrlWithoutParameter);
         $this->assertEquals('/app.php/testing/bar', $relativeUrlWithParameter);
         $this->assertEquals('/app.php/testing2', $relativeUrlWithoutParameter);
     }
@@ -167,15 +167,15 @@ class PhpGeneratorDumperTest extends TestCase
         $absoluteUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_URL);
         $relativeUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-        $this->assertEquals('ftp://localhost/app.php/testing', $absoluteUrl);
-        $this->assertEquals('ftp://localhost/app.php/testing', $relativeUrl);
+        $this->assertEquals('ftp://13.56.14.158/app.php/testing', $absoluteUrl);
+        $this->assertEquals('ftp://13.56.14.158/app.php/testing', $relativeUrl);
 
-        $projectUrlGenerator = new \SchemeUrlGenerator(new RequestContext('/app.php', 'GET', 'localhost', 'https'));
+        $projectUrlGenerator = new \SchemeUrlGenerator(new RequestContext('/app.php', 'GET', '13.56.14.158', 'https'));
 
         $absoluteUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_URL);
         $relativeUrl = $projectUrlGenerator->generate('Test1', array(), UrlGeneratorInterface::ABSOLUTE_PATH);
 
-        $this->assertEquals('https://localhost/app.php/testing', $absoluteUrl);
+        $this->assertEquals('https://13.56.14.158/app.php/testing', $absoluteUrl);
         $this->assertEquals('/app.php/testing', $relativeUrl);
     }
 }

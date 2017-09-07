@@ -21,7 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
               <li class="carousel-item active" role="option" aria-hidden="false">
           <a href="http://www.prestashop.com.br">
             <figure>
-              <img src="http://localhost/campanari/modules/ps_imageslider/images/a1371f9982f57feb577443c249c6bcf36c66b466_banner-campanari-1.jpg" alt="Lorem Ipsum dolor siamet">
+              <img src="http://13.56.14.158/campanari/modules/ps_imageslider/images/a1371f9982f57feb577443c249c6bcf36c66b466_banner-campanari-1.jpg" alt="Lorem Ipsum dolor siamet">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Lorem Ipsum</h2>
                   <div class="caption-description"><p>Lorem Ipsum dolor siamet</p></div>

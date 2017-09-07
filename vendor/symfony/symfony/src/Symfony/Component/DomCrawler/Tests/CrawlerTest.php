@@ -629,13 +629,13 @@ EOF
         $crawler = new Crawler('<?xml version="1.0" encoding="UTF-8"?>
             <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
                 <url>
-                    <loc>http://localhost/foo</loc>
+                    <loc>http://13.56.14.158/foo</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.5</priority>
                     <lastmod>2012-11-16</lastmod>
                </url>
                <url>
-                    <loc>http://localhost/bar</loc>
+                    <loc>http://13.56.14.158/bar</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.5</priority>
                     <lastmod>2012-11-16</lastmod>

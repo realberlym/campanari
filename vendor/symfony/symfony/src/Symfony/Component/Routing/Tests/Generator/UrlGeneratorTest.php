@@ -25,7 +25,7 @@ class UrlGeneratorTest extends TestCase
         $routes = $this->getRoutes('test', new Route('/testing'));
         $url = $this->getGenerator($routes)->generate('test', array(), UrlGeneratorInterface::ABSOLUTE_URL);
 
-        $this->assertEquals('http://localhost/app.php/testing', $url);
+        $this->assertEquals('http://13.56.14.158/app.php/testing', $url);
     }
 
     public function testAbsoluteSecureUrlWithPort443()
@@ -33,7 +33,7 @@ class UrlGeneratorTest extends TestCase
         $routes = $this->getRoutes('test', new Route('/testing'));
         $url = $this->getGenerator($routes, array('scheme' => 'https'))->generate('test', array(), UrlGeneratorInterface::ABSOLUTE_URL);
 
-        $this->assertEquals('https://localhost/app.php/testing', $url);
+        $this->assertEquals('https://13.56.14.158/app.php/testing', $url);
     }
 
     public function testAbsoluteUrlWithNonStandardPort()
@@ -41,7 +41,7 @@ class UrlGeneratorTest extends TestCase
         $routes = $this->getRoutes('test', new Route('/testing'));
         $url = $this->getGenerator($routes, array('httpPort' => 8080))->generate('test', array(), UrlGeneratorInterface::ABSOLUTE_URL);
 
-        $this->assertEquals('http://localhost:8080/app.php/testing', $url);
+        $this->assertEquals('http://13.56.14.158:8080/app.php/testing', $url);
     }
 
     public function testAbsoluteSecureUrlWithNonStandardPort()
@@ -49,7 +49,7 @@ class UrlGeneratorTest extends TestCase
         $routes = $this->getRoutes('test', new Route('/testing'));
         $url = $this->getGenerator($routes, array('httpsPort' => 8080, 'scheme' => 'https'))->generate('test', array(), UrlGeneratorInterface::ABSOLUTE_URL);
 
-        $this->assertEquals('https://localhost:8080/app.php/testing', $url);
+        $this->assertEquals('https://13.56.14.158:8080/app.php/testing', $url);
     }
 
     public function testRelativeUrlWithoutParameters()
@@ -115,7 +115,7 @@ class UrlGeneratorTest extends TestCase
         $routes = $this->getRoutes('test', new Route('/testing'));
         $url = $this->getGenerator($routes)->generate('test', array('foo' => 'bar'), UrlGeneratorInterface::ABSOLUTE_URL);
 
-        $this->assertEquals('http://localhost/app.php/testing?foo=bar', $url);
+        $this->assertEquals('http://13.56.14.158/app.php/testing?foo=bar', $url);
     }
 
     public function testUrlWithNullExtraParameters()
@@ -123,7 +123,7 @@ class UrlGeneratorTest extends TestCase
         $routes = $this->getRoutes('test', new Route('/testing'));
         $url = $this->getGenerator($routes)->generate('test', array('foo' => null), UrlGeneratorInterface::ABSOLUTE_URL);
 
-        $this->assertEquals('http://localhost/app.php/testing', $url);
+        $this->assertEquals('http://13.56.14.158/app.php/testing', $url);
     }
 
     public function testUrlWithExtraParametersFromGlobals()
@@ -255,16 +255,16 @@ class UrlGeneratorTest extends TestCase
     public function testSchemeRequirementForcesAbsoluteUrl()
     {
         $routes = $this->getRoutes('test', new Route('/', array(), array(), array(), '', array('https')));
-        $this->assertEquals('https://localhost/app.php/', $this->getGenerator($routes)->generate('test'));
+        $this->assertEquals('https://13.56.14.158/app.php/', $this->getGenerator($routes)->generate('test'));
 
         $routes = $this->getRoutes('test', new Route('/', array(), array(), array(), '', array('http')));
-        $this->assertEquals('http://localhost/app.php/', $this->getGenerator($routes, array('scheme' => 'https'))->generate('test'));
+        $this->assertEquals('http://13.56.14.158/app.php/', $this->getGenerator($routes, array('scheme' => 'https'))->generate('test'));
     }
 
     public function testSchemeRequirementCreatesUrlForFirstRequiredScheme()
     {
         $routes = $this->getRoutes('test', new Route('/', array(), array(), array(), '', array('Ftp', 'https')));
-        $this->assertEquals('ftp://localhost/app.php/', $this->getGenerator($routes)->generate('test'));
+        $this->assertEquals('ftp://13.56.14.158/app.php/', $this->getGenerator($routes)->generate('test'));
     }
 
     public function testPathWithTwoStartingSlashes()

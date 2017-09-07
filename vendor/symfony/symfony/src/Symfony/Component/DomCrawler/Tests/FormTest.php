@@ -509,23 +509,23 @@ class FormTest extends TestCase
 
     public function testGetUriAbsolute()
     {
-        $form = $this->createForm('<form action="foo"><input type="submit" /></form>', null, 'http://localhost/foo/');
-        $this->assertEquals('http://localhost/foo/foo', $form->getUri(), '->getUri() returns absolute URIs');
+        $form = $this->createForm('<form action="foo"><input type="submit" /></form>', null, 'http://13.56.14.158/foo/');
+        $this->assertEquals('http://13.56.14.158/foo/foo', $form->getUri(), '->getUri() returns absolute URIs');
 
-        $form = $this->createForm('<form action="/foo"><input type="submit" /></form>', null, 'http://localhost/foo/');
-        $this->assertEquals('http://localhost/foo', $form->getUri(), '->getUri() returns absolute URIs');
+        $form = $this->createForm('<form action="/foo"><input type="submit" /></form>', null, 'http://13.56.14.158/foo/');
+        $this->assertEquals('http://13.56.14.158/foo', $form->getUri(), '->getUri() returns absolute URIs');
     }
 
     public function testGetUriWithOnlyQueryString()
     {
-        $form = $this->createForm('<form action="?get=param"><input type="submit" /></form>', null, 'http://localhost/foo/bar');
-        $this->assertEquals('http://localhost/foo/bar?get=param', $form->getUri(), '->getUri() returns absolute URIs only if the host has been defined in the constructor');
+        $form = $this->createForm('<form action="?get=param"><input type="submit" /></form>', null, 'http://13.56.14.158/foo/bar');
+        $this->assertEquals('http://13.56.14.158/foo/bar?get=param', $form->getUri(), '->getUri() returns absolute URIs only if the host has been defined in the constructor');
     }
 
     public function testGetUriWithoutAction()
     {
-        $form = $this->createForm('<form><input type="submit" /></form>', null, 'http://localhost/foo/bar');
-        $this->assertEquals('http://localhost/foo/bar', $form->getUri(), '->getUri() returns path if no action defined');
+        $form = $this->createForm('<form><input type="submit" /></form>', null, 'http://13.56.14.158/foo/bar');
+        $this->assertEquals('http://13.56.14.158/foo/bar', $form->getUri(), '->getUri() returns path if no action defined');
     }
 
     public function provideGetUriValues()

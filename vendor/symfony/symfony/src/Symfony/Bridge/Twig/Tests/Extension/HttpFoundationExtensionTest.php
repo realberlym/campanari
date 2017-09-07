@@ -34,10 +34,10 @@ class HttpFoundationExtensionTest extends TestCase
     public function getGenerateAbsoluteUrlData()
     {
         return array(
-            array('http://localhost/foo.png', '/foo.png', '/foo/bar.html'),
-            array('http://localhost/foo/foo.png', 'foo.png', '/foo/bar.html'),
-            array('http://localhost/foo/foo.png', 'foo.png', '/foo/bar'),
-            array('http://localhost/foo/bar/foo.png', 'foo.png', '/foo/bar/'),
+            array('http://13.56.14.158/foo.png', '/foo.png', '/foo/bar.html'),
+            array('http://13.56.14.158/foo/foo.png', 'foo.png', '/foo/bar.html'),
+            array('http://13.56.14.158/foo/foo.png', 'foo.png', '/foo/bar'),
+            array('http://13.56.14.158/foo/bar/foo.png', 'foo.png', '/foo/bar/'),
 
             array('http://example.com/baz', 'http://example.com/baz', '/'),
             array('https://example.com/baz', 'https://example.com/baz', '/'),
@@ -77,20 +77,20 @@ class HttpFoundationExtensionTest extends TestCase
     public function getGenerateAbsoluteUrlRequestContextData()
     {
         return array(
-            array('/foo.png', '/foo', 'localhost', 'http', 80, 443, 'http://localhost/foo.png'),
-            array('foo.png', '/foo', 'localhost', 'http', 80, 443, 'http://localhost/foo/foo.png'),
-            array('foo.png', '/foo/bar/', 'localhost', 'http', 80, 443, 'http://localhost/foo/bar/foo.png'),
-            array('/foo.png', '/foo', 'localhost', 'https', 80, 443, 'https://localhost/foo.png'),
-            array('foo.png', '/foo', 'localhost', 'https', 80, 443, 'https://localhost/foo/foo.png'),
-            array('foo.png', '/foo/bar/', 'localhost', 'https', 80, 443, 'https://localhost/foo/bar/foo.png'),
-            array('/foo.png', '/foo', 'localhost', 'http', 443, 80, 'http://localhost:443/foo.png'),
-            array('/foo.png', '/foo', 'localhost', 'https', 443, 80, 'https://localhost:80/foo.png'),
+            array('/foo.png', '/foo', '13.56.14.158', 'http', 80, 443, 'http://13.56.14.158/foo.png'),
+            array('foo.png', '/foo', '13.56.14.158', 'http', 80, 443, 'http://13.56.14.158/foo/foo.png'),
+            array('foo.png', '/foo/bar/', '13.56.14.158', 'http', 80, 443, 'http://13.56.14.158/foo/bar/foo.png'),
+            array('/foo.png', '/foo', '13.56.14.158', 'https', 80, 443, 'https://13.56.14.158/foo.png'),
+            array('foo.png', '/foo', '13.56.14.158', 'https', 80, 443, 'https://13.56.14.158/foo/foo.png'),
+            array('foo.png', '/foo/bar/', '13.56.14.158', 'https', 80, 443, 'https://13.56.14.158/foo/bar/foo.png'),
+            array('/foo.png', '/foo', '13.56.14.158', 'http', 443, 80, 'http://13.56.14.158:443/foo.png'),
+            array('/foo.png', '/foo', '13.56.14.158', 'https', 443, 80, 'https://13.56.14.158:80/foo.png'),
         );
     }
 
     public function testGenerateAbsoluteUrlWithScriptFileName()
     {
-        $request = Request::create('http://localhost/app/web/app_dev.php');
+        $request = Request::create('http://13.56.14.158/app/web/app_dev.php');
         $request->server->set('SCRIPT_FILENAME', '/var/www/app/web/app_dev.php');
 
         $stack = new RequestStack();
@@ -98,7 +98,7 @@ class HttpFoundationExtensionTest extends TestCase
         $extension = new HttpFoundationExtension($stack);
 
         $this->assertEquals(
-            'http://localhost/app/web/bundles/framework/css/structure.css',
+            'http://13.56.14.158/app/web/bundles/framework/css/structure.css',
             $extension->generateAbsoluteUrl('/app/web/bundles/framework/css/structure.css')
         );
     }

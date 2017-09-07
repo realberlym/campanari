@@ -40,7 +40,7 @@ class ObjectsProvider
                 array('name' => 'Joseph'),
                 array('name' => '[a-z]+'),
                 array('opt1' => 'val1', 'opt2' => 'val2'),
-                'localhost',
+                '13.56.14.158',
                 array('http', 'https'),
                 array('get', 'head')
             ),
@@ -49,7 +49,7 @@ class ObjectsProvider
                 array(),
                 array(),
                 array('opt1' => 'val1', 'opt2' => 'val2'),
-                'localhost',
+                '13.56.14.158',
                 array('http', 'https'),
                 array('put', 'post')
             ),

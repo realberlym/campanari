@@ -241,8 +241,8 @@ final class DriverManager
             return $params;
         }
 
-        // (pdo_)?sqlite3?:///... => (pdo_)?sqlite3?://localhost/... or else the URL will be invalid
-        $url = preg_replace('#^((?:pdo_)?sqlite3?):///#', '$1://localhost/', $params['url']);
+        // (pdo_)?sqlite3?:///... => (pdo_)?sqlite3?://13.56.14.158/... or else the URL will be invalid
+        $url = preg_replace('#^((?:pdo_)?sqlite3?):///#', '$1://13.56.14.158/', $params['url']);
 
         // PHP < 5.4.8 doesn't parse schemeless urls properly.
         // See: https://php.net/parse-url#refsect1-function.parse-url-changelog

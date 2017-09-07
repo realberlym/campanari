@@ -10,7 +10,7 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
-#Domain: localhost
+#Domain: 13.56.14.158
 RewriteRule . - [E=REWRITEBASE:/campanari/]
 RewriteRule ^api$ api/ [L]
 

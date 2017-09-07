@@ -20,10 +20,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <div class="social-sharing">
       <span>Compartilhar</span>
       <ul>
-                  <li class="facebook icon-gray"><a href="http://www.facebook.com/sharer.php?u=http://localhost/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Compartilhar" target="_blank">Compartilhar</a></li>
-                  <li class="twitter icon-gray"><a href="https://twitter.com/intent/tweet?text=Vestido estampado http://localhost/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Tweet" target="_blank">Tweet</a></li>
-                  <li class="googleplus icon-gray"><a href="https://plus.google.com/share?url=http://localhost/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Google+" target="_blank">Google+</a></li>
-                  <li class="pinterest icon-gray"><a href="http://www.pinterest.com/pin/create/button/?media=http://localhost/campanari/10/vestido-estampado.jpg&amp;url=http://localhost/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Pinterest" target="_blank">Pinterest</a></li>
+                  <li class="facebook icon-gray"><a href="http://www.facebook.com/sharer.php?u=http://13.56.14.158/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Compartilhar" target="_blank">Compartilhar</a></li>
+                  <li class="twitter icon-gray"><a href="https://twitter.com/intent/tweet?text=Vestido estampado http://13.56.14.158/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Tweet" target="_blank">Tweet</a></li>
+                  <li class="googleplus icon-gray"><a href="https://plus.google.com/share?url=http://13.56.14.158/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Google+" target="_blank">Google+</a></li>
+                  <li class="pinterest icon-gray"><a href="http://www.pinterest.com/pin/create/button/?media=http://13.56.14.158/campanari/10/vestido-estampado.jpg&amp;url=http://13.56.14.158/campanari/br/evening-dresses/4-vestido-estampado.html" class="text-hide" title="Pinterest" target="_blank">Pinterest</a></li>
               </ul>
     </div>
   

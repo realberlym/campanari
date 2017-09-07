@@ -124,7 +124,7 @@ class __TwigTemplate_9a27f32b3c5e6e590c47e71fb8aa5523a8c88f3713140f55b1782f99947
             // line 64
             if ((isset($context["webpack_server"]) ? $context["webpack_server"] : null)) {
                 // line 65
-                echo "            <script src=\"http://localhost:8080/stock.bundle.js\"></script>
+                echo "            <script src=\"http://13.56.14.158:8080/stock.bundle.js\"></script>
         ";
             } else {
                 // line 67

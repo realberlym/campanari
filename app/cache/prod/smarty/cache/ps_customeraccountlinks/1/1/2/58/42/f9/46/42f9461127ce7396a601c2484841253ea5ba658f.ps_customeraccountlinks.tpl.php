@@ -24,7 +24,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php if ($_valid && !is_callable('content_59adad02aeb6d5_42803057')) {function content_59adad02aeb6d5_42803057($_smarty_tpl) {?>
 <div id="block_myaccount_infos" class="col-md-2 links wrapper">
   <h3 class="myaccount-title hidden-sm-down">
-    <a class="text-uppercase" href="http://localhost/campanari/br/a-minha-conta" rel="nofollow">
+    <a class="text-uppercase" href="http://13.56.14.158/campanari/br/a-minha-conta" rel="nofollow">
       A sua conta
     </a>
   </h3>
@@ -39,22 +39,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   </div>
   <ul class="account-list collapse" id="footer_account_list">
             <li>
-          <a href="http://localhost/campanari/br/nota-de-encomenda" title="Créditos" rel="nofollow">
+          <a href="http://13.56.14.158/campanari/br/nota-de-encomenda" title="Créditos" rel="nofollow">
             Créditos
           </a>
         </li>
             <li>
-          <a href="http://localhost/campanari/br/enderecos" title="Endereços" rel="nofollow">
+          <a href="http://13.56.14.158/campanari/br/enderecos" title="Endereços" rel="nofollow">
             Endereços
           </a>
         </li>
             <li>
-          <a href="http://localhost/campanari/br/historico-de-encomendas" title="Pedidos" rel="nofollow">
+          <a href="http://13.56.14.158/campanari/br/historico-de-encomendas" title="Pedidos" rel="nofollow">
             Pedidos
           </a>
         </li>
             <li>
-          <a href="http://localhost/campanari/br/identidade" title="Personal info" rel="nofollow">
+          <a href="http://13.56.14.158/campanari/br/identidade" title="Personal info" rel="nofollow">
             Personal info
           </a>
         </li>
